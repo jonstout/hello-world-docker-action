@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: 'hello world action step'
         id: hello
-        uses: jonstout/hello-world-docker-actions@v1
+        uses: jonstout/hello-world-docker-action@v1
       - name: 'echo stuff'
         run: echo "hahahahaha"
