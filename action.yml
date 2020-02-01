@@ -1,0 +1,6 @@
+name: 'hello world'
+description: 'hello world description'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:  []
