@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: 'job to say hello'
+    steps:
+      - name: 'hello world action step'
+        id: hello
+        users: jonstout/hello-world-docker-actions@v1
+      - name: 'echo stuff'
+        run: echo "hahahahaha"
